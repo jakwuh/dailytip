@@ -1,4 +1,4 @@
-We have [discussed][1] earlier how to significally reduce a bundle size which imports `lodash` inside. Now we will learn more (in 2 parts) about specific webpack options and settings used in order to reduce the bundle still not breaking the functionality too much.
+We have [discussed][1] earlier about how to significantly reduce the size of a bundle that imports `lodash` inside itself. Now we will learn more (in 2 parts) about specific webpack options and settings used in order to reduce the bundle still not breaking the functionality too much.
 
 #### babel-plugin-lodash
 
@@ -89,7 +89,7 @@ const options = {
 
 The most difficult questions are:
 - which options should we enable? (default value for each option is `false`)
-- how `lodash-webpack-plugin` actually reduces a bundle size? (we need to understand this to prevent accidental bundle size growth by injudicious imports).
+- how does `lodash-webpack-plugin` actually reduce the size of a bundle? (we need to understand this to prevent accidental bundle size growth by injudicious imports).
 
 Look forward for the next tip to find the answers.
 
